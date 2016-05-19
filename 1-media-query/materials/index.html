@@ -5,6 +5,18 @@
 		<title>Box Model</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<style type="text/css">
+		@media screen and (max-width: 1000px){ 
+    p {
+      font-size: 40px;
+
+    } 
+    .box {
+      text-align: left; background-color:#eee; border-color: white;
+    }
+    /* min-width for desktop */
+  } 
+</style>
+<style type="text/css">
 		body{
 			background-image: url(img/code.jpg);
 			background-size: cover;
@@ -22,6 +34,7 @@
 				font-size: 0;
 
 			}
+			 
 			.box{
 				position: relative;
 				width: 100%;
@@ -32,6 +45,10 @@
 				font-size: 20px;
 				text-align: center;
 				padding: 30px 0;
+				border:2px solid black;
+			}
+			.box p {
+				color:white;
 			}
 
 			.sidebar{
